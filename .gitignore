@@ -1,0 +1,22 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+DerivedData/
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+*.xcuserdata
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Firebase設定ファイル
+GoogleService-Info.plist
+
+# macOS
+.DS_Store
+
+# CocoaPods
+Pods/
+Podfile.lock
